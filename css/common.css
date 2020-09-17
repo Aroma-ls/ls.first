@@ -50,11 +50,15 @@ body {
     font:12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
     color:#666
 }
+/* 清除浮动 */
 .clearfix::after {
+    /* 在父元素后面加一个空元素 */
     content: "";
+    /* 将这个空元素转换为块级元素 */
     display: block;
     height: 0;
     clear: both;
+    /* 该空元素不可见 */
     visibility: hidden;
     *zoom: 1;
 }

@@ -1,1 +1,13 @@
 /* 首页的样式 */
+#head_top a {
+    display: block;
+    height: 80px;
+    background-color: #920000;
+    /* text-align: center; */
+}
+#head_top a #head_top_img{
+    width: 1190px;
+    height: 80px;
+    background-image: url(../imgage/index_img/head_img.jpg);
+    margin: 0 auto;
+}

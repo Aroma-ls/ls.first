@@ -1,4 +1,5 @@
 /* 首页的样式 */
+/* 顶部推广 */
 #head_top a {
     display: block;
     height: 80px;
@@ -6,8 +7,155 @@
     /* text-align: center; */
 }
 #head_top a #head_top_img{
+    position: relative;
     width: 1190px;
     height: 80px;
-    background-image: url(../imgage/index_img/head_img.jpg);
+    background-image: url("../imgage/index_img/head_img.jpg");
     margin: 0 auto;
+}
+#head_top a #head_top_img span{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+/* 顶部导航栏 */
+#top_nav{
+    border-bottom: 1px solid #dddddd;
+    background-color: #e3e4e5;
+}
+#top_nav_all{
+    width: 1190px;
+    height: 30px;
+    margin: auto;
+    line-height: 30px;
+}
+/* 顶部导航栏左侧 */
+#top_nav_left{
+    float: left;
+}
+.icomoon_ad{
+    position: relative;
+    top: 2px;
+    font-size: 14px;
+    margin-right: 2px;
+}
+/* 顶部导航栏右侧 */
+#top_nav_right{
+    float: right;
+}
+#top_nav_right li{
+    float: left;
+    padding:0 12px;
+}
+#top_nav_all .separator{
+    float: left;
+    height: 10px;
+    width: 1px;
+    background-color: #cccccc;
+    margin: 11px 0;
+}
+#top_nav_all .nav_text{
+    color: #999999;
+}
+#top_nav_all a:hover{
+    color: #ee3333;
+}
+#top_nav_all .style_red{
+    color: #f10215;
+}
+#top_nav_all #top_nav_right .nav_place_icon{
+    position: relative;
+    padding-left: 13px;
+    padding-right: 26px;
+}
+#top_nav_all #top_nav_right .nav_icon{
+    position: absolute;
+    right: 10px;
+    top: 1px;
+    height: 12px;
+    width: 12px;
+    /* line-height: 12px; */
+}
+#top_nav_right #mobile{
+    padding-right: 7px;
+}
+.mobile_text{
+    width: 60px;
+    text-align: center;
+}
+/* 搜索框右侧logo */
+#header{
+    background-color: #ffffff;
+    border-bottom: 1px solid #dddddd;
+}
+#header_all{
+    position: relative;
+    height: 140PX;
+    width: 1190px;
+    margin: auto;
+}
+#logo{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 190px;
+    height: 120px;
+}
+#logo_tit{
+    background-image: url("../imgage/index_img/JD_logo.png");
+    background-position: 0 0;
+    overflow: hidden;
+    display: block;
+    width: 190px;
+    height: 120px;
+}
+/* 搜索框 */
+#search_all{
+    position: relative;
+    height: 60px;
+}
+#search{
+    position: absolute;
+    left: 330px;
+    top: 40px;
+    border: 2px solid #e2231a;
+    width: 486px;
+    height: 32px;
+    background: #ffffff;
+}
+#search_f{
+    position: absolute;
+    left: 0;
+    padding: 3px 44px 3px 17px;
+    width: 367px;
+    height: 26px;
+    border: 0px;
+    outline: none;
+}
+#search_s{
+    position: absolute;
+    left: 394px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    color: #9f9f9f;
+    z-index: 1;
+}
+#search_t{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 58px;
+    height: 32px;
+    border: none;
+    outline: none;
+    background-color: #e1251b;
+    z-index: 1;
+}
+#search_t span{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    z-index: 2;
 }

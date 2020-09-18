@@ -51,6 +51,7 @@ body {
     color:#666
 }
 /* 清除浮动 */
+.clearfix::before,
 .clearfix::after {
     /* 在父元素后面加一个空元素 */
     content: "";

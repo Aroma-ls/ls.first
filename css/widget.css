@@ -1,1 +1,11 @@
 /* 页面小部件的css */
+.search_s,
+.hotwords_a a{
+    color: #9f9f9f;
+}
+.top_close:hover,
+.search_s:hover,
+.hotwords_a a:hover,
+.nav a:hover{
+    color:#c81623;
+}

@@ -8,14 +8,15 @@
     <title>Document</title>
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/widget.css">
 </head>
 
 <body>
     <!-- 顶部推广 -->
     <div id="head_top">
-        <a href="https://pro.jd.com/mall/active/3izHoSNfuGd5mStKoVsXktJ12pJ6/index.html" target="_blank">
+        <a href="#" target="_blank">
             <div id="head_top_img">
-                <span class="icomoon"></span>
+                <span class="icomoon top_close"></span>
             </div>
         </a>
     </div>
@@ -85,29 +86,51 @@
             <div id="search_all">
                 <div id="search">
                     <!-- 搜索框 -->
-                    <input type="text" id="search_f" class="search_f">
+                    <input placeholder="我是一个提示文字" type="text" id="search_f" class="search_f">
                     <!-- 小相机 -->
-                    <a href="#">
-                        <span id="search_s" class="search_s icomoon"></span>
-                    </a>
+                    <span id="search_s">
+                        <a href="#" class="search_s icomoon"></a>
+                    </span>
                     <!-- 按钮 -->
                     <button id="search_t" class="search_t">
                         <span class="icomoon"></span>
                     </button>
                 </div>
+                <div id="shopping_cart">
+                    <span id="shopping_cart_logo" class="icomoon shopping_cart_logo"></span>
+                    <span id="shopping_cart_num">0</span>
+                    <a href="#" id="shopping_cart_txt" class="shopping_cart_txt">我的购物车</a>
+                </div>
             </div>
-            <div id="hotwords">热搜关键词</div>
-            <div id="nav">
-                <li><a href="#">秒杀</a></li>
-                <li><a href="#">优惠券</a></li>
-                <li><a href="#">PLUS会员</a></li>
-                <li><a href="#">品牌闪购</a></li>
-                <li><a href="#">拍卖</a></li>
-                <li><a href="#">京东家电</a></li>
-                <li><a href="#">京东超市</a></li>
-                <li><a href="#">京东生鲜</a></li>
-                <li><a href="#">京东国际</a></li>
-                <li><a href="#">京东金融</a></li>
+            <div id="hotwords">
+                <ul class="hotwords">
+                    <li class="hotwords_a hotwords_red"><a href="#">苹果上新</a></li>
+                    <li class="hotwords_a"><a href="#">199减30</a></li>
+                    <li class="hotwords_a"><a href="#">一元速抢</a></li>
+                    <li class="hotwords_a"><a href="#">运动户外</a></li>
+                    <li class="hotwords_a"><a href="#">爆款电视</a></li>
+                    <li class="hotwords_a"><a href="#">热卖家具</a></li>
+                    <li class="hotwords_a"><a href="#">合约立减</a></li>
+                    <li class="hotwords_a"><a href="#">中秋美味</a></li>
+                    <li class="hotwords_a"><a href="#">图书钜惠</a></li>
+                </ul>
+            </div>
+            <div id="nav" class="nav">
+                <ul class="clearfix nav_all">
+                    <li><a href="#" class="nav_red">秒杀</a></li>
+                    <li><a href="#" class="nav_red">优惠券</a></li>
+                    <li><a href="#">PLUS会员</a></li>
+                    <li><a href="#">品牌闪购</a></li>
+                    <li><a href="#">拍卖</a></li>
+                    <li><a href="#">京东家电</a></li>
+                    <li><a href="#">京东超市</a></li>
+                    <li><a href="#">京东生鲜</a></li>
+                    <li><a href="#">京东国际</a></li>
+                    <li><a href="#">京东金融</a></li>
+                </ul>
+            </div>
+            <div id="header_right">
+                <a href="#" id="right_img"></a>
             </div>
         </div>
 

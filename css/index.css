@@ -3,7 +3,7 @@
 #head_top a {
     display: block;
     height: 80px;
-    background-color: #920000;
+    background-color: #f8e55e;
     /* text-align: center; */
 }
 #head_top a #head_top_img{
@@ -13,10 +13,13 @@
     background-image: url("../imgage/index_img/head_img.jpg");
     margin: 0 auto;
 }
-#head_top a #head_top_img span{
+.top_close{
     position: absolute;
     top: 0px;
     right: 0px;
+    font-size: 20px;
+    color: #414141;
+    z-index: 3;
 }
 /* 顶部导航栏 */
 #top_nav{
@@ -83,7 +86,7 @@
     width: 60px;
     text-align: center;
 }
-/* 搜索框右侧logo */
+/* 搜索框左侧logo */
 #header{
     background-color: #ffffff;
     border-bottom: 1px solid #dddddd;
@@ -116,10 +119,10 @@
 }
 #search{
     position: absolute;
-    left: 330px;
-    top: 40px;
+    left: 260px;
+    top: 25px;
     border: 2px solid #e2231a;
-    width: 486px;
+    width: 550px;
     height: 32px;
     background: #ffffff;
 }
@@ -127,19 +130,24 @@
     position: absolute;
     left: 0;
     padding: 3px 44px 3px 17px;
-    width: 367px;
+    width: 425px;
     height: 26px;
     border: 0px;
     outline: none;
 }
-#search_s{
+.search_f:focus{
+    color: #000000;
+}
+#search_s {
     position: absolute;
-    left: 394px;
+    right: 75px;
     display: block;
     width: 20px;
     height: 20px;
+}
+#search_s a{
+    display: block;
     font-size: 20px;
-    color: #9f9f9f;
     z-index: 1;
 }
 #search_t{
@@ -158,4 +166,90 @@
     font-size: 20px;
     font-weight: 700;
     z-index: 2;
+}
+/* 购物车 */
+#shopping_cart{
+    position: absolute;
+    right: 231px;
+    top: 26px;
+    border:1px solid #eeeeee;
+    background-color: #ffffff;
+    width: 130px;
+    height: 34px;
+    line-height: 34px;
+    text-align: center;
+}
+#shopping_cart:hover{
+    border-color: #e1251b;
+}
+.shopping_cart_logo,
+.shopping_cart_txt{
+    color: #e1251b;
+}
+#shopping_cart_logo{
+    margin-right: 13px;
+    font-size: 16px;
+}
+#shopping_cart_num{
+    position: absolute;
+    display: block;
+    left: 29px;
+    top: 2px;
+    padding: 1px 3px;
+    background-color: #e1251b;
+    border-radius: 7px;
+    color: #ffffff;
+    line-height: 12px;
+    min-width: 13px;
+}
+/* 搜索热词 */
+#hotwords{
+    position: absolute;
+    left: 260px;
+    top: 65px;
+    width: 550px;
+    height: 20px;
+    overflow: hidden;
+}
+.hotwords_a{
+    float: left;
+    margin-right: 10px;
+}
+.hotwords .hotwords_red a{
+    color: #e1251b;
+}
+/* 导航栏 */
+#nav{
+    position: absolute;
+    left: 203px;
+    bottom: 0px;
+    overflow: hidden;
+}
+#nav li{
+    float: left;
+    margin: 0 11px;
+}
+.nav_all li a{
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: #333333;
+    font-size: 15px;
+}
+.nav_all .nav_red{
+    color: #e1251b;
+    font-weight: 700;
+}
+/* 右侧图片 */
+#header_right{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    width: 190px;
+    height: 120px;
+}
+#right_img{
+    display: block;
+    height: 120px;
+    background-image: url("../imgage/index_img/logo_header_right.png");
 }

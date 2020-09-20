@@ -6,6 +6,7 @@
 .top_close:hover,
 .search_s:hover,
 .hotwords_a a:hover,
-.nav a:hover{
+.nav a:hover,
+.JD_menu_txt:hover{
     color:#c81623;
 }

@@ -253,3 +253,50 @@
     height: 120px;
     background-image: url("../imgage/index_img/logo_header_right.png");
 }
+/* 下半部分内容区域总盒子 */
+#JD{
+    width: 1190PX;
+    height: auto;
+    margin: 0 auto;
+}
+/* 左侧菜单栏 */
+#JD_f{
+    width: 1190px;
+    height: 480px;
+    margin-bottom: 30px;
+}
+.JD_f_f{
+    float: left;
+}
+#menu{
+    width: 190px;
+    height: 480px;
+}
+.JD_menu{
+    width: 190;
+    height: 470;
+    margin-top: 10px;
+    padding: 10px 0;
+    background-color: #fefefe;
+}
+.JD_menu li{
+    display: block;
+    height: 25px;
+    width: 190px;
+    padding-left: 18px;
+    line-height: 25px;
+    /* 消除li中换行的空格 */
+    font-size: 0px;
+}
+.JD_menu li:hover{
+    background-color: #d9d9d9;
+}
+.JD_menu .JD_menu_txt{
+    color: #333333;
+    font-size: 14px;
+}
+.JD_menu_line{
+    color: #636363;
+    font-size: 12px;
+    padding: 0px 2px;
+}

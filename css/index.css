@@ -257,16 +257,13 @@
 #JD{
     width: 1190PX;
     height: auto;
-    margin: 0 auto;
+    margin: 10px auto 0px auto;
 }
 /* 左侧菜单栏 */
 #JD_f{
     width: 1190px;
     height: 480px;
     margin-bottom: 30px;
-}
-.JD_f_f{
-    float: left;
 }
 #menu{
     width: 190px;
@@ -275,9 +272,10 @@
 .JD_menu{
     width: 190;
     height: 470;
-    margin-top: 10px;
+    /* margin-top: 10px; */
     padding: 10px 0;
     background-color: #fefefe;
+    overflow: hidden;
 }
 .JD_menu li{
     display: block;
@@ -299,4 +297,12 @@
     color: #636363;
     font-size: 12px;
     padding: 0px 2px;
+}
+/* 主页面大轮播图 */
+#focus_1{
+    position: relative;
+    width: 590px;
+    height: 480px;
+    padding: 0 10px;
+    background-color: yellow;
 }

@@ -10,3 +10,7 @@
 .JD_menu_txt:hover{
     color:#c81623;
 }
+.JD_f_f,
+.JD_f_s{
+    float: left;
+}

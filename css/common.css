@@ -3,53 +3,63 @@
 /* 字体声明 */
 @font-face {
     font-family: 'icomoon';
-    src:  url('../fonts/icomoon.eot?ck3lon');
-    src:  url('../fonts/icomoon.eot?ck3lon#iefix') format('embedded-opentype'),
-      url('../fonts/icomoon.ttf?ck3lon') format('truetype'),
-      url('../fonts/icomoon.woff?ck3lon') format('woff'),
-      url('../fonts/icomoon.svg?ck3lon#icomoon') format('svg');
+    src: url('../fonts/icomoon.eot?ck3lon');
+    src: url('../fonts/icomoon.eot?ck3lon#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?ck3lon') format('truetype'),
+        url('../fonts/icomoon.woff?ck3lon') format('woff'),
+        url('../fonts/icomoon.svg?ck3lon#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;
-  }
+}
+
 .icomoon {
     font-family: 'icomoon';
 }
+
 /* 页面初始化 */
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 /* 斜体不倾斜 */
 em,
 i {
     font-style: normal;
 }
+
 li {
-   list-style-type: none;
+    list-style-type: none;
 }
-img{
+
+img {
     /* border: 0; 照顾低版本浏览器 如果图片外面包含了链接会有边框的问题 */
     border: 0;
     /* 取消图片底侧有空隙的问题 */
     vertical-align: middle;
 }
+
 button {
     /* 当我们鼠标经过button按钮时，鼠标变成小手 */
     cursor: pointer;
 }
+
 a {
     text-decoration: none;
     color: #666666;
 }
+
 a:hover {
     color: #c81623;
 }
+
 body {
     background-color: #f4f4f4;
-    font:12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
-    color:#666
+    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    color: #666
 }
+
 /* 清除浮动 */
 .clearfix::before,
 .clearfix::after {

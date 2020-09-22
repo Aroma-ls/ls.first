@@ -6,9 +6,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- 调用公共样式 -->
     <link rel="stylesheet" href="../css/common.css">
+    <!-- 调用首页的css -->
     <link rel="stylesheet" href="../css/index.css">
+    <!-- 调用一些细节的css -->
     <link rel="stylesheet" href="../css/widget.css">
+    <!-- 调用动画封装函数 因为主体 JS 需要用到 animate 函数，所以他的调用应该在主要 JS 调用的前面-->
+    <script src="../js/animate.js"></script>
+    <!-- 调用首页焦点图所需的JS -->
+    <script src="../js/index_focus.js"></script>
+    <!-- 调用左侧滑块所需的JS -->
+    <script src="../js/index_slider.js"></script>
 </head>
 
 <body>
@@ -139,6 +148,15 @@
     <div id="JD">
         <!-- 第一部分：左侧菜单栏 中间轮播图 右侧用户信息、快报和公共服务入口 -->
         <div id=JD_f class="cleanfix">
+            <!-- 左侧滑块 -->
+            <div id="sli" class="sli">
+                <a href="#" class="sli_a">
+                    <div id="slider" class="slider"></div>
+                </a>
+                <a href="#" class="sli_b">
+                    <div id="sliderbar"></div>
+                </a>
+            </div>
             <!-- 左侧菜单栏 -->
             <div id="menu" class="JD_f_f">
                 <ul id="JD_menu" class="JD_menu">
@@ -235,26 +253,58 @@
             </div>
             <!-- 中间轮播图 -->
             <div id="focus_1" class="JD_f_s">
-                <div class="focus_1_left">
-                    <span class="icomoon focus_1_l"></span>
+                <!-- 左按钮 -->
+                <div class="focus_1_l focus_btn">
+                    <span class="icomoon"></span>
                 </div>
-                <div class="focus_1_right">
-                    <span class="icomoon focus_1_r"></span>
+                <!-- 右按钮 -->
+                <div class="focus_1_r focus_btn">
+                    <span class="icomoon"></span>
                 </div>
-                <div class="focus_1_img">
-                    <ul>
-                        <li class="focus_1_s"></li>
-                        <li class="focus_1_s"></li>
-                        <li class="focus_1_s"></li>
-                        <li class="focus_1_s"></li>
-                        <li class="focus_1_s"></li>
-                        <li class="focus_1_s"></li>
-                        <li class="focus_1_s"></li>
-                        <li class="focus_1_s"></li>
-                    </ul>
-                </div>
+                <ul class="clearfix">
+                    <li class=" focus_1_s">
+                        <a href="#">
+                            <img src="../imgage/index_img/focus/focus_1.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="focus_1_s">
+                        <a href="#">
+                            <img src="../imgage/index_img/focus/focus_2.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="focus_1_s">
+                        <a href="#">
+                            <img src="../imgage/index_img/focus/focus_3.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="focus_1_s">
+                        <a href="#">
+                            <img src="../imgage/index_img/focus/focus_4.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="focus_1_s">
+                        <a href="#">
+                            <img src="../imgage/index_img/focus/focus_5.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="focus_1_s">
+                        <a href="#">
+                            <img src="../imgage/index_img/focus/focus_6.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="focus_1_s">
+                        <a href="#">
+                            <img src="../imgage/index_img/focus/focus_7.jpg" alt="">
+                        </a>
+                    </li>
+                    <li class="focus_1_s">
+                        <a href="#">
+                            <img src="../imgage/index_img/focus/focus_8.jpg" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <ol class="focus_dots clearfix"></ol>
             </div>
-            <div id="focus_2">小轮播图</div>
             <!-- 右侧三个模块 -->
             <div id="user&news">
                 <!-- 用户信息 -->
@@ -264,11 +314,12 @@
                 <!-- 公共服务入口 -->
                 <div id="service_entry">公共服务入口</div>
             </div>
+
         </div>
         <div id="JD_s">
             <div>倒计时</div>
-            <div id="focus_3">翻页的图片导航</div>
-            <div id="focus_4">小轮播图2</div>
+            <div id="focus_2">翻页的图片导航</div>
+            <div id="focus_3">小轮播图2</div>
         </div>
         <div>页面左侧吸附导航栏（回到顶部）</div>
     </div>

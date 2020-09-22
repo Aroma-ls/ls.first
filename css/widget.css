@@ -1,16 +1,18 @@
 /* 页面小部件的css */
 .search_s,
-.hotwords_a a{
+.hotwords_a a {
     color: #9f9f9f;
 }
+
 .top_close:hover,
 .search_s:hover,
 .hotwords_a a:hover,
 .nav a:hover,
-.JD_menu_txt:hover{
-    color:#c81623;
+.JD_menu_txt:hover {
+    color: #c81623;
 }
+
 .JD_f_f,
-.JD_f_s{
+.JD_f_s {
     float: left;
 }

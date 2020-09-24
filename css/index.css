@@ -419,6 +419,7 @@
 
 /* 左右按钮 */
 .focus_btn {
+    display: block;
     position: absolute;
     top: 50%;
     width: 20px;
